@@ -122,7 +122,7 @@ namespace restapi.Controllers
             }
         }
 
-        // Replace a complete line item
+        // Replace a complete line item.
         [HttpPost("{id}/lines/{unique}")]
         public IActionResult ReplaceLine(string id, string unique, [FromBody] TimecardLine identifier)
         {
