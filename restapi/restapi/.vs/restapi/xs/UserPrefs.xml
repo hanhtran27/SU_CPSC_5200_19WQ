@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{32CFA3DA-BE6B-49EB-A19D-A06031615DB8}|Default">
+  <MonoDevelop.Ide.ItemProperties.restapi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/TimecardLine.cs">
+    <Files>
+      <File FileName="Controllers/TimesheetsController.cs" Line="136" Column="28" />
+      <File FileName="Models/Timecard.cs" Line="24" Column="29" />
+      <File FileName="Models/Events.cs" Line="1" Column="1" />
+      <File FileName="Models/DocumentRelationship.cs" Line="1" Column="1" />
+      <File FileName="Database.cs" Line="1" Column="1" />
+      <File FileName="Models/TimecardLine.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

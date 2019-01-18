@@ -7,9 +7,9 @@ namespace restapi
 {
     public static class Database
     {
-        private static readonly IDictionary<string, Timecard> Timecards = 
+        private static readonly IDictionary<string, Timecard> Timecards =
             new Dictionary<string, Timecard>();
-        
+
         public static IEnumerable<Timecard> All
         {
             get => Timecards.Values.ToList();
@@ -19,7 +19,7 @@ namespace restapi
         {
             Timecard timecard = null;
 
-            if (Timecards.TryGetValue(id, out timecard) == true) 
+            if (Timecards.TryGetValue(id, out timecard) == true)
             {
                 return timecard;
             }
@@ -37,6 +37,12 @@ namespace restapi
         public static void Delete(string id)
         {
             Timecards.Remove(id);
+        }
+
+        public static void Replace(String id, Timecard timecard)
+        {
+            Delete(id);
+            Timecards.Add(id, timecard);
         }
     }
 }
